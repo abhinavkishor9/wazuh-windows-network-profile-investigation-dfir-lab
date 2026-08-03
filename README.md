@@ -140,8 +140,8 @@ Unexpected network profile changes may indicate unauthorized configuration chang
 
 # Investigation Findings
 
-- The active network profile was initially Private.
-- The profile was successfully changed to Public.
+- The active network profile was initially Public.
+- The profile was successfully changed to Private.
 - Windows generated NetworkProfile Operational events.
 - PowerShell confirmed the updated profile.
 - Wazuh Discover collected related endpoint activity.
