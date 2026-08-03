@@ -25,7 +25,7 @@ The investigation followed a structured DFIR workflow:
 
 ## Investigation Scenario
 
-A Windows workstation changed its network profile from **Private** to **Public**.
+A Windows workstation changed its network profile from **Public** to **Private**.
 
 The investigation aimed to determine:
 
