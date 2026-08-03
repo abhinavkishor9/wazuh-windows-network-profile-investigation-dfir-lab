@@ -73,7 +73,7 @@ Get-NetConnectionProfile
 
 Finding:
 
-Verified the profile transitioned from Private to Public.
+Verified the profile transitioned from Public to Private.
 
 ---
 
