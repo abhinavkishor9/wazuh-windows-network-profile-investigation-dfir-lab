@@ -1,0 +1,51 @@
+# Investigation Timeline
+
+| Time | Activity | Evidence |
+|------|----------|----------|
+| 07:30 | Verified Wazuh agent is active | agent_control |
+| 07:35 | Checked active network profile | PowerShell |
+| 07:40 | Changed network profile from Public to Private | Windows Settings |
+| 07:43 | Reviewed NetworkProfile Operational log | Event Viewer |
+| 07:45 | Validation using PowerShell | Get-NetConnectionProfile |
+| 07:50 | Investigated Wazuh Discover | Discover |
+
+---
+
+# Investigation Flow
+
+Investigation Started
+
+↓
+
+Verified Agent Health
+
+↓
+
+Checked Current Network Profile
+
+↓
+
+Changed Network Profile to Private
+
+↓
+
+Reviewed Event Viewer
+
+↓
+
+Validation Using PowerShell
+
+↓
+
+Investigated Wazuh Discover for the events
+
+↓
+
+Correlated Evidence from Wazuh Discover, Event Viewer, Settings and PowerShell
+
+↓
+
+Investigation Completed
+
+---
+
