@@ -18,7 +18,7 @@ The investigation included:
 
 - Verifying Wazuh agent connectivity
 - Identifying the active network profile
-- Changing the network profile from Private to Public
+- Changing the network profile from Public to Private
 - Investigating NetworkProfile Operational logs
 - Validating events using PowerShell
 - Searching Wazuh Discover
